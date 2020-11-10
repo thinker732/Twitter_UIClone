@@ -1,5 +1,5 @@
-# tailwind-vue
-
+ # tailwind-vue
+Twitter UI colne with vuejs and Tailwind css made just for my and your fun
 ## Project setup
 ```
 npm install
