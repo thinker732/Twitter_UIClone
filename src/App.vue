@@ -20,7 +20,7 @@
       </div>
       <div class="lg:w-full relative">
         <button @click="appear=true" class="flex items-center w-full hover:bg-lightbue rounded-full focus:outline-none">
-          <img src="pp.jpg" alt="" class="w-12 h-12 rounded-full border border-lighter">
+          <img src="dark.jpg" alt="" class="w-12 h-12 rounded-full border border-lighter">
           <div class="hidden lg:block ml-4">
             <p class="text-sm font-bold leading-tight">Baed Savitar</p>
             <p class="text-sm leading-tight">@thinker732</p>
@@ -30,7 +30,7 @@
 
         <div v-if="appear===true" class="absolute bottom-0 left-0 w-64 round-lg shadow-xl border-lightest bg-white mb-16">
           <button @click="appear=false" class="p-3 flex items-center w-full hover:bg-lightest  focus:outline-none">
-            <img src="pp.jpg" alt="" class="w-12 h-12 rounded-full border border-lighter">
+            <img src="dark.jpg" alt="" class="w-12 h-12 rounded-full border border-lighter">
             <div class="ml-4">
               <p class="text-sm font-bold leading-tight">Baed Savitar</p>
               <p class="text-sm leading-tight">@thinker732</p>
@@ -55,7 +55,7 @@
       </div>
       <div class="px-5 py-3 border-b-8 border-lighter flex">
         <div class="flex-none">
-          <img src="pp.jpg" class="flex-none w-12 h-12 rounded-full border border-lighter"/>
+          <img src="dark.jpg" class="flex-none w-12 h-12 rounded-full border border-lighter"/>
         </div>
         <form  v-on:submit.prevent="addNewTweet" class="w-full px-4 relative">
           <textarea  v-model="tweet.content" placeholder="What's up?" class="mt-3 pb-3 w-full focus:outline-none pl-5"/>
@@ -74,7 +74,7 @@
       <div class="flex flex-col-reverse">
         <div v-for="tweet in tweets" :key="tweet" class="w-full p-4 border-b hover:bg-lighter flex">
           <div class="flex-none mr-4">
-            <img src="pp.jpg" class="h-12 w-12 rounded-full flex-none"/>
+            <img src="dark.jpg" class="h-12 w-12 rounded-full flex-none"/>
           </div>
           <div class="w-full">
             <div class="flex items-center w-full">
