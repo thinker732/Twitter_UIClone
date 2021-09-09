@@ -20,7 +20,7 @@
       </div>
       <div class="lg:w-full relative">
         <button @click="appear=true" class="flex items-center w-full hover:bg-lightbue rounded-full focus:outline-none">
-          <img src="pp.jpg" alt="" class="w-12 h-12 rounded-full border border-lighter">
+          <img src="watch.jpg" alt="" class="w-12 h-12 rounded-full border border-lighter">
           <div class="hidden lg:block ml-4">
             <p class="text-sm font-bold leading-tight">Baed Savitar</p>
             <p class="text-sm leading-tight">@thinker732</p>
